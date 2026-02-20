@@ -2,7 +2,7 @@
 const nextConfig = {
   output: 'export',
   basePath: 'ORB-PRUEBA',
-  assetPrefix: 'ORB-PRUEBA',
+  assetPrefix: 'ORB-PRUEBA/',
   images: {
     unoptimized: true,
   },
