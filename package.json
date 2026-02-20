@@ -8,8 +8,8 @@
     "dev": "next dev",
     "lint": "eslint .",
     "start": "next start",
-    "predeploy": "npm run build && node -e \"require('fs').writeFileSync('out/.nojekyll', '')\"",
-    "deploy": "gh-pages -d out --dotfiles"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
